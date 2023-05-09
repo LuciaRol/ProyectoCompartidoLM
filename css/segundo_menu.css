@@ -37,7 +37,7 @@
     font-size: 20px;
     width: 10em;
     height: 10em;
-    background-image: url(images/erp.png);
+    background-image: url(../images/erp.png);
     background-size: cover;
     background-position: center;
     color:var(--color1);
@@ -51,7 +51,7 @@
     font-size: 20px;
     width: 10em;
     height: 10em;
-    background-image: url(images/crm.png);
+    background-image: url(../images/crm.png);
     background-size: cover;
     background-position: center;
     color:var(--color1);

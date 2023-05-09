@@ -15,20 +15,23 @@
 
 .menu_usuario{
     display: flex;
-    justify-content: center;
     flex-direction: column;
     height: 60vh;
+    align-items: center;
 }
 .titulo-seccion{
-    text-align: center;
     font-size: 35px;
     color: var(--colortitulos);
+    position: absolute;
+    margin-top: 3rem;
 }
 .menu{
     padding-top: 100px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    justify-self: center;
+    margin-top: 4rem;
 }
 .menu a{
     text-decoration: none;
@@ -47,9 +50,17 @@
     border-radius: 10%;
     margin-right: 50px;
 }
+#imagenSDG:hover{
+    width: 12em;
+    height: 12em;
+    transition: 0.5s;
+}
+
+
 #imagenSDG h3{
     background-color: rgba(255, 255, 255, 0.445);
     text-align: center;
+    width: 15em;
 }
 #imagenSDR{
     font-size: 20px;
@@ -65,10 +76,17 @@
     border-radius: 50%;
     margin-right: 50px;
 }
+
+#imagenSDR:hover{
+    width: 12em;
+    height: 12em;
+    transition: 0.5s;
+}
 #imagenSDR h3{
     text-align: center;
     color: white;
     margin-bottom: 10px;
+    width:5em;
 }
 #imagenSDC{
     font-size: 20px;
@@ -78,10 +96,21 @@
     background-image: url(../images/sdc.jpg);
     background-size: cover;
     background-position: center;
-    color:white;
+    color:var(--color1);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     margin-right: 50px;
+}
+
+
+#imagenSDC:hover{
+    width: 12em;
+    height: 12em;
+    transition: 0.5s;
+}
+#imagenSDC h3{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.445);
 }
