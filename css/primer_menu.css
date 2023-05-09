@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --color1: #1c1638;
+    --color2: #642156;
+    --color3: #2b7cca;
+    --color4 :#d8dded;
+    --color5: #f3f3f3;
+}
+
+/* header */
+
+
+/*Botones registro y login*/
+
+
+/*footer*/
+
+
+/*MENU USUARIO*/
+
+.menu_usuario{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    height: 60vh;
+}
+.titulo-seccion{
+    text-align: center;
+    font-size: 35px;
+    color: var(--colortitulos);
+}
+.menu{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menu a{
+    text-decoration: none;
+}
+#imagenERP{
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    color:var(--color1);
+    display: flex;
+    align-items:last baseline;
+    justify-content: center;
+    border-radius: 10%;
+    margin-right: 50px;
+}
+#imagenCRM{
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    color:var(--color1);
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+#imagenBI{
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    color:var(--color1);
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 50px;
+}
