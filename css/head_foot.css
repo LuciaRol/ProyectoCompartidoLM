@@ -1,0 +1,10 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #fbece6;
+}
+header img{
+    width: 50;
+}
