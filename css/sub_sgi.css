@@ -11,6 +11,9 @@ main{
     justify-content: center;
     font-family: 'Quicksand', sans-serif;
 }
+main h1{
+    text-align: center;
+}
 main section:nth-child(odd){
     text-align: right;
 }
@@ -28,4 +31,17 @@ section:last-child{
 }
 .caracteristicas ul li::before{
     content: "— "
+}
+.iframe{
+    text-align: center !important;
+}
+.interes ul{
+    list-style: none;
+}
+.interes a{
+    text-decoration: none;
+    color: var(--color2);
+}
+.ejemplos p{
+    text-align: left !important;
 }
