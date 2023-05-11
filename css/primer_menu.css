@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px
 }
 
 :root{
@@ -45,7 +48,6 @@
     background-position: center;
     color:var(--color1);
     display: flex;
-    align-items:last baseline;
     justify-content: center;
     border-radius: 10%;
     margin-right: 50px;
@@ -55,12 +57,10 @@
     height: 12em;
     transition: 0.5s;
 }
-
-
 #imagenSDG h3{
-    background-color: rgba(255, 255, 255, 0.445);
+    margin-top: 100%;
     text-align: center;
-    width: 15em;
+    width: 10em;
 }
 #imagenSDR{
     font-size: 20px;
@@ -71,7 +71,6 @@
     background-position: center;
     color:var(--color1);
     display: flex;
-    align-items: last baseline;
     justify-content: center;
     border-radius: 50%;
     margin-right: 50px;
@@ -83,34 +82,7 @@
     transition: 0.5s;
 }
 #imagenSDR h3{
+    margin-top: 100%;
     text-align: center;
-    color: white;
-    margin-bottom: 10px;
-    width:5em;
-}
-#imagenSDC{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 10em;
-    height: 10em;
-    background-image: url(../images/sdc.jpg);
-    background-size: cover;
-    background-position: center;
-    color:var(--color1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    margin-right: 50px;
-}
-
-
-#imagenSDC:hover{
-    width: 12em;
-    height: 12em;
-    transition: 0.5s;
-}
-#imagenSDC h3{
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.445);
+    width: 15em;
 }
