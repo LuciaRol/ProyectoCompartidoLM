@@ -1,0 +1,8 @@
+body{
+    padding: 10px;
+}
+div{
+    border:3px double black;
+    margin-top: 4px;
+    padding: 10px;
+}

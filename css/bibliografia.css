@@ -11,37 +11,21 @@ main{
     justify-content: center;
     font-family: 'Quicksand', sans-serif;
 }
-main h1{
+main{
     text-align: center;
-}
-main section:nth-child(odd){
-    text-align: right;
 }
 section{
     margin: 0 auto;
     width: 45%;
-    border-bottom: 1px solid var(--color2);
     padding: 1%;
 }
-section:last-child{
-    border-bottom: none;
-}
-.caracteristicas ul{
+section ul{
+    padding: 0;
     list-style: none;
 }
-.caracteristicas ul li::before{
-    content: "— "
-}
-.iframe{
-    text-align: center !important;
-}
-.interes ul{
-    list-style: none;
-}
-.interes a{
+a{
     text-decoration: none;
-    color: var(--color2);
 }
-.ejemplos p{
-    text-align: left !important;
+a:hover{
+    color:gray;
 }
