@@ -3,6 +3,7 @@
     --color1: #1c1638;
     --color2: #B56576;
     --color3: #2b7cca;
+    --color6: #f87171;
 }
 body{
     padding: 0;
@@ -16,16 +17,79 @@ header{
     background-color: var(--fondo);
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 header a{
     display: flex;
     justify-content: center;
 }
 header a img{
-    width: 50%;
+    width: 15%;
     margin-top: 1%;
     margin-bottom: 1%;   
 }
+
+.marcado>a{
+    border-bottom: 1px solid var(--color6);
+}
+
+nav{
+    justify-self: center;
+    align-self: center;
+    z-index: 1;
+}
+
+nav ul{
+    list-style: none;
+    position: relative;
+    float: center;
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+nav li{
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+nav ul li ul{
+    display: none;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--fondo);
+    padding: 0;
+}
+nav ul ul li{
+    float: none;
+    width: 200px;
+}
+nav ul ul ul{
+    top: 0;
+    left: 100%;
+}
+nav ul li:hover a:hover{
+    color: var(--color6);
+}
+nav ul li a:hover + ul, ul li ul:hover{
+    display: block;
+}
+
+
+
+
 footer{
     background-color: var(--fondo);
     display: flex;
